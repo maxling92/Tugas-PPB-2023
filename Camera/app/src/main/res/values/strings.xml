@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Camera</string>
-    <string name="capture">Capture</string>
-    <string name="preview_area">Image preview</string>
-    <string name="flip">Flip camera</string>
-</resources>
