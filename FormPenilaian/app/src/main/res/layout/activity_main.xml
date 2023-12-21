@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Name Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextNama"
+            android:hint="Nama Mahasiswa"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- ID Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextNRP"
+            android:hint="NRP Mahasiswa"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Score Inputs -->
+    <!-- 1st Score -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextNilaiTes1"
+            android:hint="Nilai tes 1"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- 2nd Score -->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextNilaiETS"
+            android:hint="Nilai ETS"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- 4th Score -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextNilaiTes2"
+            android:hint="Nilai tes 2"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- 5th Score -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextNilaiEAS"
+            android:hint="Nilai EAS"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <!-- Input Data Button -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Data"
+        android:id="@+id/buttonInputData"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Result Output (Nilai Huruf) -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:boxBackgroundMode="none"
+        android:focusable="false"
+        android:clickable="false"
+        android:hint="Nilai Huruf">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextNilaiHuruf"
+            android:hint="Nilai Huruf"
+            android:inputType="none"
+            android:focusable="false"
+            android:longClickable="false"
+            android:clickable="false"
+            android:focusableInTouchMode="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
