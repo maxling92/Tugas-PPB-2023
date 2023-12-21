@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FruitScanner2</string>
+    <string-array name="fruit_classes">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Mango</item>
+        <item>Strawberry</item>
+        <item>Watermelon</item>
+        <item>Grapes</item>
+        <item>Durian</item>
+        <item>Guava</item>
+    </string-array>
+
+</resources>
